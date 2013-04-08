@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+		<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+		<title>FlightMemory.com Exporter Tool</title>
+	</head>
+	<body>
+		This form is used to export your flights from <a href="http://www.flightmemory.com">FlightMemory</a> to the <a href="http://openflights.org/help/csv.html">OpenFlights.org CSV Format </a>.
+		Please enter your FlightMemory.com username and password below.
+		<form action="http://www.nilshomer.com/cgi/flightmemory/flightmemory.cgi" method="POST" name="LoginForm">
+			<table>
+				<tr>
+					<td>
+						User Name
+					</td>
+					<td>
+						<input type="text" name="username"><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Password
+					</td>
+					<td>
+						<input type="password" name="password"><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Include Notes/Comments
+					</td>
+					<td>
+						<input type="radio" name="comments" value="True" checked="checked">True
+						<input type="radio" name="comments" value="False">False
+						<br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit">
+					</td>
+					<td>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
